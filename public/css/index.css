@@ -66,32 +66,27 @@
 .task8 p {
   clear: both;
 }
-/* **********************************************???***** */
+
 .task9 .item1 {
   height: 200px;
-  clear: none;
   float: left;
 }
 .task9 .item2 {
-  clear: both;
-  float: left;
+  float: right;
 }
 .task9 p {
-  clear: left;
+  clear: right;
 }
-/* **********************************************???***** */
+
 .task10 .item1 {
-  clear: both;
   float: left;
 }
 .task10 .item2 {
   height: 200px;
   float: right;
-  clear: right;
 }
 .task10 p {
-  float: left;
-  clear: both;
+  clear: left;
 }
 
 .task11 .img-item {
@@ -162,7 +157,7 @@
 }
 
 .task22 {
-  caret-color: color(blue);
+  caret-color: blue;
   /* user-select: all; */
 }
 html {
